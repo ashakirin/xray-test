@@ -1,4 +1,5 @@
 Feature: Simple Calculator
+  @SBB-4 @src/test/resources/org/demo/bdd/calculator.feature
   Scenario Outline: Adding two numbers
     Given I have a calculator
     When I add <num1> and <num2>
